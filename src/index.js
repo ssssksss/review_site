@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import NaverMapContainer from './NaverMapAPI/NaverMapContainer';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    test
+    <NaverMapContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
